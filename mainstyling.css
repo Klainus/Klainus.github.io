@@ -1,0 +1,22 @@
+body {
+    padding: 25px;
+    background-color: white;
+    color: black;
+}
+
+.dark-mode {
+    background-color: black;
+    color: white;
+}
+
+header {
+    font-size: 2rem;
+    display: flex;
+    justify-content: center;
+}
+
+.darkMode {
+    display: flex;
+    border-style: initial;
+    width: 120px;
+}
