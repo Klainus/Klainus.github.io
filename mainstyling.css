@@ -13,10 +13,22 @@ header {
     font-size: 2rem;
     display: flex;
     justify-content: center;
+    background-color: red;
 }
 
 .darkMode {
     display: flex;
     border-style: initial;
     width: 120px;
+}
+
+.fiskContainer {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+
+#fisk {
+    width: 40vh;
+    height: 80vh;
 }
