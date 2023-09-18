@@ -1,5 +1,5 @@
 body {
-    padding: 25px;
+    padding: 10px;
     background-color: white;
     color: black;
 }
@@ -24,11 +24,41 @@ header {
 
 .fiskContainer {
     display: flex;
-    justify-content: center;
+    justify-content: right;
     padding: 10px;
+    width: 80vh;
+    border-left: 2px solid;
 }
 
 #fisk {
-    width: 40vh;
-    height: 80vh;
+    width: 50%;
+    height: auto;
 }
+
+.navigate {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 20vh;
+    justify-content: center;
+}
+
+.mainContainer {
+    display: flex;
+}
+
+a {
+    padding: 20px;
+    margin-left: 10px;
+    width: 100px;
+    
+}
+
+h2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+}
+
+
