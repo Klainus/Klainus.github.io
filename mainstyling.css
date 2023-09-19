@@ -16,23 +16,24 @@ header {
     background-color: red;
 }
 
-.darkMode {
+.darkModeBtn {
     display: flex;
     border-style: initial;
     width: 120px;
 }
 
-.fiskContainer {
+.picContainer {
     display: flex;
-    justify-content: right;
     padding: 10px;
-    width: 80vh;
     border-left: 2px solid;
+    width: 100%;
 }
 
-#fisk {
-    width: 50%;
-    height: auto;
+.bild {
+    display: flex;
+    height: 790px;
+    width: auto;
+    padding: 10px;
 }
 
 .navigate {
@@ -45,20 +46,40 @@ header {
 
 .mainContainer {
     display: flex;
+    margin-left: auto;
+    flex-grow: 1;
 }
 
 a {
     padding: 20px;
     margin-left: 10px;
     width: 100px;
-    
+    border: 2px solid burlywood;
+    p
 }
 
 h2 {
     display: flex;
-    justify-content: center;
+    text-align: center;
     align-items: center;
     width: 300px;
+    justify-content: center;
+
 }
+
+footer {
+    display: flex;
+    justify-content: flex-end;
+}
+
+p {
+    font-size: 1.5rem;
+    width: 20%;
+    display: flex;
+    padding: 20px;
+    text-align: center;
+    align-items: center;
+}
+
 
 

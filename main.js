@@ -7,3 +7,11 @@ function darkMode() {
         darkbtn.innerHTML = "Enter Dark Mode";
     }
 }
+
+function munkClick() {
+    alert("Välkommen till den godaste sidan!");
+}
+
+document.getElementById("munkBtn").onclick = function() {
+    munkClick();
+}
