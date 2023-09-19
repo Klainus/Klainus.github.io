@@ -54,8 +54,12 @@ a {
     padding: 20px;
     margin-left: 10px;
     width: 100px;
-    border: 2px solid burlywood;
-    p
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+
+a:hover {
+    text-decoration: underline;
 }
 
 h2 {
@@ -80,6 +84,50 @@ p {
     text-align: center;
     align-items: center;
 }
+
+#munkPic {
+    width: 28%;
+    height: auto;
+}
+
+ul {
+    font-size: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    list-style: none;
+}
+
+#column {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 15px;
+    justify-content: center;
+    width: 400px;
+}
+
+div #column .bild {
+    height: 20vh;
+    width:fit-content;
+}
+
+#listColumn {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+#background {
+    display: flex;
+    width: 50%;
+    height: 100%;
+    justify-content: center;
+}
+
+
+
+
 
 
 
