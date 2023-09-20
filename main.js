@@ -19,12 +19,3 @@ function munkClick() {
 document.getElementById("munkBtn").onclick = function() {
     munkClick();
 }
-
-function checkDarkMode() {
-    var element = document.body;
-    var darkModeOn = localStorage.getItem("darkMode");
-    if (darkModeOn === "enabled") {
-        element.classList.add("dark-mode");
-        darkbtn.innerHTML = "Exit Dark Mode";
-    }
-}

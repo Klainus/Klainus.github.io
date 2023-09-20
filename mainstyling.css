@@ -149,6 +149,11 @@ div #column .bild {
     height: 500px;
     width: auto;
 }
+
+#startScr img {
+    height: 650px;
+    width: auto;
+}
 }
 
 
