@@ -1,0 +1,93 @@
+@media screen and (max-width: 600px) {
+    
+
+
+body {
+    padding: 5px;
+    background-color: rgb(133, 134, 116);
+    color: black;
+
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    font-size: 2.5rem;
+    margin-left: auto;
+    text-decoration: underline;
+    margin-bottom: 15px;
+}
+
+.picContainer {
+    justify-content: center;
+    display: flex;
+    padding: 5px;
+    width: 100%;
+}
+
+.navigate {
+    display: flex;
+    box-shadow: 0 0 0px rgba(0, 0, 0, 0.2);
+}
+
+a {
+    width: 100%;
+    border-style: solid;
+    text-decoration: none;
+    margin-left: 5px;
+    border-color: black;
+    color: black;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.darkModeBtn {
+    display: none;
+}
+
+a:hover {
+    color:beige;
+}
+
+.bild {
+    display: flex;
+    height: 480px;
+    margin-left: 5px;
+    margin-right: 5px;
+    border-radius: 8%;
+}
+
+.picContainer h2 {
+    display: none;
+}
+
+.picContainer p {
+    display: none;
+}
+
+.descPhone h2 {
+    display: flex;
+    width: 45%;
+    text-align: center;
+}
+
+.descPhone p {
+    width: 50%;
+    text-align: center;
+}
+
+.descPhone {
+    display: flex;
+    justify-content: center;
+}
+
+ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 1rem;
+    align-items: flex-start;
+    width: 60px;
+}
+
+}
