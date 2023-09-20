@@ -1,14 +1,18 @@
 @media screen and (min-width: 1280px){
 
+
 body {
-    padding: 10px;
-    background-color: white;
+    background-color: rgb(219, 209, 209);
     color: black;
 }
 
 .dark-mode {
-    background-color: black;
+    background-color: rgb(39, 39, 39);
     color: white;
+}
+
+.darkModeTransition {
+    transition: background-color 0.8s ease, color 0.8s ease;
 }
 
 header {
